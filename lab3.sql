@@ -197,3 +197,6 @@ UPDATE Staff SET salary = salary * 1.05 WHERE position = 'Manager';
 
 -- 39
 DELETE FROM Viewing WHERE propertyNo = 'PG4';
+
+-- 40. Delete all rows from the Viewing table.
+DELETE FROM Viewing;
